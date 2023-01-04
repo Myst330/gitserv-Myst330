@@ -87,11 +87,34 @@ li a {
 
 .content {
   display: block;
-  background-color: darkslategray;
+  background-color: #222326;
   overflow:auto;
-  height: 300px;
-  width: 600px;
+  height: 450px;
+  width: 1000px;
   position: absolute;
+  left: 170px;
+  top: 120px;
+
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 10px;
 
 
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3d4148;
+  transition: ease-out 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #282c34;
+  cursor: pointer;
 }
