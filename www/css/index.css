@@ -9,6 +9,7 @@
  * magenta: c678dd
  * aqua: 56b6c2
  * grey: abb2bf
+ * darkgrey: 44474c
  */
 
 * {
@@ -82,4 +83,15 @@ li a {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+}
+
+.content {
+  display: block;
+  background-color: darkslategray;
+  overflow:auto;
+  height: 300px;
+  width: 600px;
+  position: absolute;
+
+
 }
