@@ -9,7 +9,6 @@
  * magenta: c678dd
  * aqua: 56b6c2
  * grey: abb2bf
- * darkgrey: 44474c
  */
 
 * {
@@ -88,7 +87,7 @@ li a {
 
 .container {
   display: block;
-  background-color: #202329;
+  background-color: #282c34;
   overflow:auto;
   height: 500px;
   width: 95%;
