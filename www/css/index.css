@@ -118,9 +118,29 @@ li a {
 }
 
 .rl {
+  margin: 0px;
+  padding: 0px;
+  transition: ease-out 0.3s;
+  border-radius: 2px;
 }
 
 .rl:hover {
-   
+   background-color: #1d2026
 
 }
+
+p {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.le {
+  font-size: 10px;
+  text-align: right;
+  font-style: italic;
+  color: #a9afb9;
+  position: relative;
+  bottom: 35px;
+}
+
+
